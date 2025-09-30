@@ -1,4 +1,4 @@
-magicClonal_matrix <- function(input_data, genes_of_interest, number_sample, gene_column_number) {
+magicSubclonal_matrix <- function(input_data, genes_of_interest, number_sample, gene_column_number) {
   
   suppressPackageStartupMessages({
     library(AnnotationDbi)
