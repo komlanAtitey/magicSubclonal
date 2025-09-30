@@ -1,5 +1,5 @@
 
-magicClonal_GEO <- function(GEO_number, genes_of_interest, number_sample, gene_column_number) {
+magicSubclonal_GEO <- function(GEO_number, genes_of_interest, number_sample, gene_column_number) {
   
   
   # -----------------------------
