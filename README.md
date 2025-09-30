@@ -25,3 +25,17 @@ print(Barplot_tumorHeterogeneity)<br>
 viz_subclone <- run$viz_subclone<br>
 print(viz_subclone)<br>
 
+$~~$
+
+##Data matrix assessment<br>
+source("magicClonal_matrix.R")<br>
+***List of driver genes***<br>
+genes_of_interest <- c("TP53","BRCA1","BRCA2","ARID1A","PIK3CA","PTEN")<br>
+***Number of coloumn for visualization***<br>  
+gene_column_number <- 3<br>
+***Number of samples***<br>
+number_sample <- 75<br>
+run <- magicClonal_matrix(input_data_matrix, genes_of_interest, number_sample, gene_column_number)<br>
+
+
+
