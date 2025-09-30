@@ -27,7 +27,7 @@ print(viz_subclone)<br>
 
 $~~$
 
-##Data matrix assessment<br>
+**Data matrix assessment**<br>
 source("magicClonal_matrix.R")<br>
 ***List of driver genes***<br>
 genes_of_interest <- c("TP53","BRCA1","BRCA2","ARID1A","PIK3CA","PTEN")<br>
