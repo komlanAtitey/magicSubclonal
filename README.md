@@ -4,6 +4,14 @@ magicSubclonal (Model-Aware, Gene-driven Inference of Clones and Subclones) is a
 
 $~~$
 
+## Input Data<br>
+magicSubclonal accepts two forms of input: <br>
+1.	GEO Datasets: The loader handles GEO accessions in multiple formats and standardizes them into a consistent gene × sample expression matrix, where rows are HGNC gene symbols. When a processed GEO ExpressionSet (Series Matrix) is available, the rows may represent probes or gene IDs, and columns represent samples with numeric expression values. <br>
+
+2.	Custom Gene Expression Matrices: Users can directly provide a gene expression matrix where rows correspond to gene names and columns to samples, containing normalized numeric expression values. <br>
+
+$~~$
+
 ## Usage <br>
 
 **GEO-based assessment**<br>
