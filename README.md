@@ -1,5 +1,6 @@
-# magicSubclonal
-magicSubclonal is a physics-informed framework for subclone discovery and gene identification from bulk transcriptomes. It models driver-gene dynamics via the Chemical Master Equation, pinpoints rare states, links them to non-drivers, and assigns clinical risk, yielding calibrated and reproducible results across cancers.
+# magicSubclonal: Physics-Informed Subclone Discovery from Bulk Transcriptomes
+magicSubclonal (Model-Aware, Gene-driven Inference of Clones and Subclones) is a physics-informed computational framework for identifying subclonal states and influential genes from bulk transcriptomic data. It models the stochastic dynamics of driver genes using the Chemical Master Equation (CME) to capture rare expression states, link them to non-driver genes, and quantify clinical risk. The framework delivers calibrated, reproducible, and biologically interpretable insights across diverse cancer types.<br>
+
 
 $~~$
 
