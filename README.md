@@ -16,7 +16,10 @@ $~~$
 **GEO-based assessment**<br>
 source("magicSubclonal_GEO.R")<br>
 GEO_number <- "GSE9891" <br>  
+
+#--------------<br>
 ***List of driver genes***<br>
+#--------------<br>
 genes_of_interest <- c("TP53","BRCA1","BRCA2","ARID1A","PIK3CA","PTEN")<br>
 ***Number of coloumn for visualization***<br>
 gene_column_number <- 3<br>
