@@ -32,6 +32,8 @@ subclone_gene <- run$high_risk_genes_in_order_unique<br>
 subclone_gene_GSE171415 <- subclone_gene<br>
 ***Example of visualization***<br>
 Barplot_tumorHeterogeneity <- run$Barplot_tumorHeterogeneity<br>
+![](Figure/magicSubclonal_fraction.png)
+
 print(Barplot_tumorHeterogeneity)<br>
 viz_subclone <- run$viz_subclone<br>
 print(viz_subclone)<br>
