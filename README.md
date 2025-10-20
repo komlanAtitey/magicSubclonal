@@ -7,6 +7,9 @@ magicSubclonal accepts two forms of input: <br>
 
 2.	Custom Gene Expression Matrices: Users can directly provide a gene expression matrix where rows correspond to gene names and columns to samples, containing normalized numeric expression values. <br>
 
+## Runtime<br>
+Runtime for magicSubclonal varies with dataset size, model settings (CME fitting, bootstrapping, resampling), and hardware configuration. On a MacBook Pro M2 Max (12-core CPU, 30/38-core GPU, up to 96 GB unified memory), processing took approximately 11, 8, 7, and 10 minutes for the ovarian (285 samples), lung (67 samples), DCIS (67 samples), and breast (19 samples) cohorts, respectively. <br>
+
 $~~$
 
 ## Usage <br>
