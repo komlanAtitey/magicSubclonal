@@ -8,7 +8,7 @@ $~~$
 magicSubclonal accepts two forms of input: <br>
 1.	GEO Datasets: The loader handles GEO accessions in multiple formats and standardizes them into a consistent gene × sample expression matrix, where rows are HGNC gene symbols. When a processed GEO ExpressionSet (Series Matrix) is available, the rows may represent probes or gene IDs, and columns represent samples with numeric expression values. <br>
 
-2.	Custom Gene Expression Matrices
+2.	Custom Gene Expression Matrices:<br>
 Users may directly provide a gene expression matrix as input.<br>
 
 For **R scripts**: the matrix should have genes as rows and samples as columns, containing normalized numeric expression values.<br>
