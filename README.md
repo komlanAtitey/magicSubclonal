@@ -33,7 +33,11 @@ number_sample <- 200<br>
 ncol <- 3<br>
 
 ***Execute in the terminal***<br>
-python3 run_magicsubclonal.py --csv ovarian_data.csv --genes "TP53,BRCA1,BRCA2,ARID1A,PIK3CA,PTEN" --samples 200 --ncol 3
+python3 run_magicsubclonal.py <br>
+--csv ovarian_data.csv <br>
+--genes "TP53,BRCA1,BRCA2,ARID1A,PIK3CA,PTEN" <br>
+--samples 200 <br>
+--ncol 3
 
 ## Usage: R script <br>
 #--------------<br>
