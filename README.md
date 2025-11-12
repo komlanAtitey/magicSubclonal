@@ -18,6 +18,15 @@ Runtime for magicSubclonal varies with dataset size, model settings (CME fitting
 $~~$
 
 ## Usage: Python script <br>
+***List of driver genes***<br>
+genes_of_interest <- c("TP53","BRCA1","BRCA2","ARID1A","PIK3CA","PTEN")<br>
+
+***Number of samples***<br>
+number_sample <- 200<br>
+
+***Number of coloumn for subplot grid layout***<br>
+gene_column_number <- 3<br>
+
 python3 run_magicsubclonal.py --csv ovarian_data.csv --genes "TP53,BRCA1,BRCA2,ARID1A,PIK3CA,PTEN" --samples 200 --ncol 3
 
 ## Usage: R script <br>
@@ -30,7 +39,7 @@ GEO_number <- "GSE9891" <br>
 ***List of driver genes***<br>
 genes_of_interest <- c("TP53","BRCA1","BRCA2","ARID1A","PIK3CA","PTEN")<br>
 
-***Number of coloumn for visualization***<br>
+***Number of coloumn for subplot grid layout***<br>
 gene_column_number <- 3<br>
 
 ***Number of samples***<br>
