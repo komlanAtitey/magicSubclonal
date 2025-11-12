@@ -17,6 +17,9 @@ Runtime for magicSubclonal varies with dataset size, model settings (CME fitting
 
 $~~$
 
+## Usage: Python script <br>
+python3 run_magicsubclonal.py --csv ovarian_data.csv --genes "TP53,BRCA1,BRCA2,ARID1A,PIK3CA,PTEN" --samples 200 --ncol 3
+
 ## Usage: R script <br>
 #--------------<br>
 **GEO-based assessment**<br>
@@ -70,8 +73,6 @@ gene_column_number <- 3<br>
 number_sample <- 75<br>
 run <- magicClonal_matrix(input_data_matrix, genes_of_interest, number_sample, gene_column_number)<br>
 
-## Usage: Python script <br>
-python3 run_magicsubclonal.py --csv ovarian_data.csv --genes "TP53,BRCA1,BRCA2,ARID1A,PIK3CA,PTEN" --samples 200 --ncol 3
 
 
 
