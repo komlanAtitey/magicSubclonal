@@ -27,6 +27,7 @@ number_sample <- 200<br>
 ***Number of coloumn for subplot grid layout***<br>
 gene_column_number <- 3<br>
 
+***Execute in the terminal***<br>
 python3 run_magicsubclonal.py --csv ovarian_data.csv --genes "TP53,BRCA1,BRCA2,ARID1A,PIK3CA,PTEN" --samples 200 --ncol 3
 
 ## Usage: R script <br>
