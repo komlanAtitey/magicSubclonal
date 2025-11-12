@@ -5,7 +5,12 @@ $~~$
 magicSubclonal accepts two forms of input: <br>
 1.	GEO Datasets: The loader handles GEO accessions in multiple formats and standardizes them into a consistent gene × sample expression matrix, where rows are HGNC gene symbols. When a processed GEO ExpressionSet (Series Matrix) is available, the rows may represent probes or gene IDs, and columns represent samples with numeric expression values. <br>
 
-2.	Custom Gene Expression Matrices: Users can directly provide a gene expression matrix where rows correspond to gene names and columns to samples, containing normalized numeric expression values. <br>
+2.	Custom Gene Expression Matrices
+Users may directly provide a gene expression matrix as input.<br>
+
+For **R scripts**: the matrix should have genes as rows and samples as columns, containing normalized numeric expression values.<br>
+
+For **Python scripts**: the input should be a CSV file where the first column is labeled “GeneSymbol”, listing the gene names, followed by columns corresponding to the samples.<br>
 
 ## Runtime<br>
 Runtime for magicSubclonal varies with dataset size, model settings (CME fitting, bootstrapping, resampling), and hardware configuration. On a MacBook Pro M2 Max (12-core CPU, 30/38-core GPU, up to 96 GB unified memory), processing took approximately 17, 8, 7, and 5 minutes for the ovarian (285 samples), lung (67 samples), DCIS (67 samples), and breast (19 samples) cohorts, respectively. <br>
